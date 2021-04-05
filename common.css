@@ -6,28 +6,65 @@ html{
 
 body{
     text-align: center;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    //background-image:url("img_forTop.jpg");//
 }
+
+//以下コピペ//
+.container {
+    position: relative;
+}
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+img {
+    width: 80%;
+    height: auto;
+    opacity: 1;
+}
+//以上コピペ//
+
+iframe {
+    width: 80%;
+    height: auto;
+    opacity: 1;
+}
+
 
 h1{
     letter-spacing: 10px;
-    font-size: 300%;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 900;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2{
     letter-spacing: 10px;
-    font-size: 280%;
+    font-size: 50%;
     font-weight: 900;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 p{
+    letter-spacing: 0px;
+    line-height: 180%;
     padding-top:10px;
     padding-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
 
 p,dt,dd,address{
     letter-spacing: 3px;
@@ -42,7 +79,7 @@ p,dt,dd,address{
 }
 
 #nav li a,#f_nav li a{
-    color: #000;
+    color: #888;
     letter-spacing: 5px;
     font-weight: 600;
 }
@@ -82,11 +119,16 @@ br{
     top:0;
     left:0;
     position:fixed;
-    background:#fff;
+    padding: 10px 0px;
+    letter-spacing: 10px;
+    color:#999;
+    background:#0C9;
 }
+//239//
 
 #nav li{
-    font-size:156% ;
+    font-size:100% ;
+    letter-spacing: 10px;
 }
 
 
@@ -97,29 +139,56 @@ br{
 }
 
 .title{
-    font-size: 280%;
+    font-size: 100%;
     padding: 30px 0px;
-    letter-spacing: 10px;
-    background:#666;
-    color:#fff;
+    letter-spacing: 5px;
+    color:#888;
+}
+
+.wtitle{
+    text-align: left;
+    font-size: 160%;
+    padding: 10px 0px;
+    letter-spacing: 5px;
+    color:#000;
+}
+//wはworkのw//
+.caption{
+    text-align: left;
+    font-size: 100%;
+    padding: 10px 0px;
+    letter-spacing: 5px;
+    color:#000;
 }
 
 .subt{
     font-weight: 900;
-    letter-spacing: 10px;
-    font-size: 250%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    letter-spacing: 0px;
+    font-size: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.smallt{
+    letter-spacing: 0px;
+    font-size: 120%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #999;
+}
+
+.descript{
+    text-align: left;
+}
+//作品説明文//
+
+.copy{
+    font-size: 50%;
 }
 
 .date{
     font-weight: 700;
     font-size: 200%;
-}
-
-.w_title{
-    font-weight:bold;
-    font-size: 180%;
 }
 
 dd{
