@@ -5,29 +5,9 @@ html{
 }
 
 body{
-    text-align: center;
-    font-family: "Hiragino Kaku Gothic Pro" ;
-    //background-image:url("img_forTop.jpg");//
+    font-family: 'Noto Serif JP', serif;
 }
 
-//以下コピペ//
-.container {
-    position: relative;
-}
-.center {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-}
-img {
-    width: 80%;
-    height: auto;
-    opacity: 1;
-}
-//以上コピペ//
 
 iframe {
     width: 80%;
@@ -35,58 +15,75 @@ iframe {
     opacity: 1;
 }
 
+img{
+text-align : center;
+}
 
 h1{
     letter-spacing: 1px;
-    font-size: 100%;
+    font-size: 200%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 900;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 1000;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 h2{
-    letter-spacing: 10px;
-    font-size: 50%;
-    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 120%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 p{
     letter-spacing: 0px;
+    font-size: 100%;
     line-height: 180%;
-    padding-top:10px;
-    padding-bottom: 10px;
+    padding-top:0px;
+    padding-bottom: 0px;
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    font-color: 000;
+}
+
+li{
+    font-family: 'Noto Serif JP', serif;
+}
+
+a{
+color: black;
 }
 
 
-p,dt,dd,address{
+dt,dd,address{
     letter-spacing: 3px;
 }
 
+.right(
+text-align: right;
+)
 
 //ナビゲーションメニューの部分//
 
-#nav li a:hover,#f_nav li a:hover{
-    background:#333;
-    color: #fff;
+.navFont{
+    font-family: 'Open Sans', sans-serif;  
 }
 
 #nav li a,#f_nav li a{
-    color: #888;
-    letter-spacing: 5px;
-    font-weight: 600;
+    letter-spacing: 0px;
+    font-weight: 100;
+    font-size: 100%;
 }
 
 #nav li,#f_nav li{
     display: inline;
-    padding: 25px 10px;
 }
 
 dl{
@@ -97,6 +94,10 @@ dl{
 dt,dd{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+dd{
+text-align : center;
 }
 
 br{
@@ -111,32 +112,18 @@ br{
     margin:0 auto;
 }
 
-
-
 #menu{
     width:100%;
-    z-index: 100000;
     top:0;
     left:0;
     position:fixed;
     padding: 10px 0px;
     letter-spacing: 10px;
-    color:#999;
-    background:#0C9;
+    background:#FFF;
+    margin-left: 0px;
 }
 //239//
 
-#nav li{
-    font-size:100% ;
-    letter-spacing: 10px;
-}
-
-
-#sns li{
-    float:left;
-    padding-left:5px;
-    padding-right:20px;
-}
 
 .title{
     font-size: 100%;
@@ -149,7 +136,6 @@ br{
     text-align: left;
     font-size: 160%;
     padding: 10px 0px;
-    letter-spacing: 5px;
     color:#000;
 }
 //wはworkのw//
@@ -186,25 +172,31 @@ br{
     font-size: 50%;
 }
 
-.date{
-    font-weight: 700;
-    font-size: 200%;
+.pageTitle{
+    font-family: 'Open Sans', sans-serif;  
+    margin-left: 100px;
+}
+
+.margin150{
+    margin-left: 150px;
+}
+
+#news, #works, #buy, #texts, #profile, #contact, #links{
+ padding-top: 100px;
+  margin-top:-100px;
+    background-image: url(test.png); /* 画像 */
+    background-repeat: no-repeat;
+    background-position:0px 0px;
 }
 
 dd{
     font-size: 150%;
 }
 
-#news{
-    clear:both;
-}
+
 
 #f_nav{
     font-size: 137%;
     padding-bottom: 25px;
     padding-top: 50px;
-}
-
-#about p,#contact p{
-    font-size: 150%;
 }
