@@ -206,7 +206,7 @@ br{
 }
 
 .greyNewsList{
-  border-left: solid 1px #999999;/*左側の線*/
+  border-left: solid 5px #999999;/*左側の線*/
   margin-bottom: 3px;/*下のバーとの余白*/
    line-height: 1.5;
   padding: 0.5em;
