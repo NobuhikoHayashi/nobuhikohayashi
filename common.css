@@ -239,3 +239,31 @@ dd{
     padding-bottom: 25px;
     padding-top: 50px;
 }
+
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 100px; /*画像サイズ指定*/
+  margin: 0px;
+  margin-left: 50px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .right {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+.flex .text {
+  margin: 0px 0 0;
+  padding: 0;
+}
