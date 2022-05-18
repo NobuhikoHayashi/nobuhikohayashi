@@ -54,11 +54,13 @@ p{
 }
 
 li{
+    font-size: 100%;
     font-family: 'Noto Serif JP', serif;
 }
 
 a{
-color: black;
+    font-size: 100%;
+    color: black;
 }
 
 
