@@ -123,6 +123,7 @@ br{
     letter-spacing: 10px;
     background:#FFF;
     margin-left: 0px;
+    z-index: 100;
 }
 //239//
 
