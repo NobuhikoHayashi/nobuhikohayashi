@@ -180,6 +180,16 @@ br{
     margin-left: 100px;
 }
 
+.smalltext{
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;  
+    }
+    
+.sold_out{
+    color: #F00;
+     font-family: 'Open Sans', sans-serif;  
+}
+
 .margin150{
     letter-spacing: 0px;
     font-size: 100%;
