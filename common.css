@@ -142,6 +142,11 @@ br{
     color:#000;
 }
 //wはworkのw//
+
+.r{
+    text-align: right;
+}
+
 .caption{
     text-align: left;
     font-size: 100%;
