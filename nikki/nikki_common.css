@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    font-family: 'Noto Serif JP', serif;
+    color: #777;
+}
+
+
+iframe {
+    /*width: 60%;
+    height: auto;*/
+    opacity: 1;
+}
+
+img{
+text-align : center;
+}
+
+
+
+h1{
+color: #333;
+}
+
+h2{
+color: #333;
+}
+
+p{
+color: #333;
+    font-size: 2vw;
+}
+
+li{
+color: #333;
+font-size: 2vw;
+}
+
+a{
+font-size: 2vw;
+}
+
+.navFont{
+
+}
+
+dl{
+
+}
+
+dt,dd{
+
+}
+
+dd{
+
+}
+
+br{
+
+}
+
+.nikkitaitoru{
+    font-size: 4vw;
+}
+
+.honnbunn{
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-right: 30vw;
+    font-size: 2vw;
+}
+
+.hidukemidashi{
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-right: 30vw;
+    font-size: 3.5vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .hidukemidashi br {
+    display: none;
+  }
+}
+
+.komagoma{
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-right: 30vw;
+    font-size: 1.5vw;
+}
+
+.koushinn{
+    text-align : right;
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-right: 30vw;
+    font-size: 1.5vw;
+}
