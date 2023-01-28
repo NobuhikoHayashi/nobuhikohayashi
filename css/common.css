@@ -23,6 +23,8 @@ h2{
 }
 
 h3{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 100%;
 }
 
 p{
@@ -155,23 +157,32 @@ img {
     
 /*----------作品リスト----------------------------------------------------------------------*/
 #works li{
-    list-style:none;
+    /*list-style:none;*/
     letter-spacing: 0px;
     max-width: 55em;
     line-height: 180%;
-    padding-top:1%;
-    padding-bottom: 1%;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
     margin: auto;
     font-family: 'Noto Serif JP', serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  white-space: nowrap;
+}
 }
 
 /*----------普通の文章----------------------------------------------------------------------*/
+/*textは予約語なのか？　↓無いとバグる*/
+text{
+}
 .text{
     max-width: 55em;
-    text-align : left;
+    /*text-align : left;*/
     margin: auto;
     line-height: 200%;
     font-weight: 100;
+    text-align: justify;
+　text-justify: inter-ideograph;
 }
 .text_right{
     max-width: 55em;
@@ -190,19 +201,23 @@ img {
 }
 .long_text{
     max-width: 55em;
-    text-align : left;
+    /*text-align : left;*/
     margin: auto;
     line-height: 200%;
     font-weight: 100;
   text-indent: 1em;
+    text-align: justify;
+　text-justify: inter-ideograph;
   }
 .small_text{
     font-size: 90%;
     max-width: 60em;
-    text-align : left;
+   /* text-align : left;*/
     margin: auto;
     line-height: 200%;
     font-weight: 100;
+    text-align: justify;
+　text-justify: inter-ideograph;
 }
 /*----------作品----------------------------------------------------------------------*/
 .work_title{
