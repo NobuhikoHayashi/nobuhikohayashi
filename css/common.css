@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    font-family: 'Noto Serif JP', serif;
+    color: #111;
+    margin-left:10px;
+    margin-right:10px;
+    background: #fefefe;
+}
+* {
+	float: none;
+	position: static;
+}
+ 
+h1{
+}
+
+h2{
+}
+
+h3{
+}
+
+p{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 100%;
+}
+
+li{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 100%;
+}
+
+a{
+    color: #009;
+}
+
+dl{
+    padding-top:15px;
+    padding-bottom: 30px;
+}
+
+dt,dd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+dd{
+text-align : center;
+    margin-left:-10px;
+    margin-right:-10px;
+}
+
+br{
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+iframe {
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*----------ヘッダーメニュー----------------------------------------------------------------------*/
+#header{
+    line-height: 200%; 
+}
+
+#header_title li a{
+    letter-spacing: 0px;
+    font-size: 100%;
+    padding: 10px 0px;
+    margin-right: 20px;
+    color: #000;
+}
+#header_title li{
+    display: inline;
+   /* margin-left:0px;*/
+}
+#menu li{
+    font-family: 'Open Sans', sans-serif;  
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 110%;
+    /*padding: 10px 0px;*/
+    margin-left:0px;
+    margin-right: 4%;/*10px*/
+    color: #000;
+}
+#menu li{
+    display: inline;
+}
+#header p{
+    font-size: 80%;
+    text-align : left;
+    margin: auto;
+    line-height: 130%;
+    font-weight: 100;
+}
+.main_title{
+     font-size: 180%;
+     letter-spacing: 0px;
+    font-weight: 1000;
+}
+.header_color1{
+    color: #f00;
+}
+.header_marginL{
+    /*margin-left:1vw; 生きてない*/
+}
+
+/*----------ページ見出し----------------------------------------------------------------------*/
+.page_title{
+    max-width:50em;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 110%;
+    font-weight: 500;
+    max-width: 55em;
+	border: solid 0px #00f;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+}
+
+/*----------小見出し----------------------------------------------------------------------*/
+.smallTitle{
+    font-size: 90%;
+    max-width: 62em;
+    text-align : left;
+    margin: auto;
+    line-height: 00%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 500;
+}
+/*----------ニュースリスト----------------------------------------------------------------------*/
+.newsList{
+    list-style:none;
+    max-width:55em;
+    border-left: solid 1px #000;/*左側の線*/
+    margin-bottom: 3px;/*下のバーとの余白*/
+    line-height: 150%;
+    padding: 0.5em;
+    letter-spacing: 0px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin: auto;
+    }
+    
+/*----------作品リスト----------------------------------------------------------------------*/
+#works li{
+    list-style:none;
+    letter-spacing: 0px;
+    max-width: 55em;
+    line-height: 180%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin: auto;
+    font-family: 'Noto Serif JP', serif;
+}
+
+/*----------普通の文章----------------------------------------------------------------------*/
+.text{
+    max-width: 55em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+}
+.text_right{
+    max-width: 55em;
+    text-align : right;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+}
+.text_large{
+    font-size: 110%;
+    max-width: 49.7em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+}
+.long_text{
+    max-width: 55em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+  text-indent: 1em;
+  }
+.small_text{
+    font-size: 90%;
+    max-width: 60em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+}
+/*----------作品----------------------------------------------------------------------*/
+.work_title{
+    font-size: 200%;
+    max-width: 27.5em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 100;
+}
+.work_data{
+    font-size: 90%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 400;
+    max-width: 61em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+}
+/*----------写真キャプション----------------------------------------------------------------------*/
+.photo_caption{
+    font-size: 80%;
+    text-align: right;
+    line-height: 0%;
+    padding: 5 5;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 100;
+    color: #999;
+}
+
+/*----------サイト内リンク----------------------------------------------------------------------*/
+.insite_link{
+    font-size: 90%;
+    max-width: 61em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 500;
+    color: #000;
+}
+.insite_link_right{
+    font-size: 90%;
+    max-width: 61em;
+    text-align : right;
+    margin: auto;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 500;
+    color: #000;
+}
+.to_page_top{
+    font-size: 90%;
+    max-width: 61em;
+    text-align : center;
+    margin: auto;
+    line-height: 100%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 500;
+    color: #000;
+}
+/*----------更新日時----------------------------------------------------------------------*/
+.update{
+    font-size: 90%;
+    max-width: 55em;
+    text-align : right;
+    margin: auto;
+    line-height: 200%;
+}
+
+/*----------フッター----------------------------------------------------------------------*/
+.footerFixed{
+    /*min-height: 0vh;  ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+    position: relative;/* ←相対位置 */
+    padding-bottom: 10px; /* ←フッターの高さを指定 */
+    box-sizing: border-box;
+    /* ↑ヘッダーやフッターを含むすべての要素の高さ＝min-height:100vhになるように指定 */
+}
+footer{
+    font-size: 90%;
+    position: fixed;/* ←絶対位置 */
+    bottom: 0;
+    padding-bottom: 5px; /* ←フッターの高さを指定 */
+}
+/*----------特定の画面幅以下になったら改行----------------------------------------------------------------------*/    
+@media screen and (min-width: 600px) {
+  .br-disp {
+    display: none;
+  }
+}
+/*----------デバイス設定----------------------------------------------------------------------*/
+/* スマホのみに適用(480px以下) */
+@media screen and (max-width:480px) {
+p, li, h1, h2, h3, a dl, dd{
+  font-size: 90%;
+}
+.main_title {  
+    font-size: 160%;
+}
+footer {
+  position: relative;
+    padding-bottom: 10px; 
+    box-sizing: border-box;
+}
+iframe{
+  width:100%;
+}
+}
+/*----------画像設定----------------------------------------------------------------------*/
+/*ヘッダー用横幅100%*/
+.img_fit_1{
+  width: 100%;
+  height:350px;
+  object-fit:cover;
+}
+/*ヘッダー用横幅100%*/
+.img_fit_2{
+  width: 100%;
+  height:600px;
+  object-fit:cover;
+}
+/*プロフィール用*/
+.img_fit_profile_1{
+  width: 50%;
+  min-width: 20vw;
+}
+/*作品用横幅*/
+.img_fit_work_1{
+    max-width: 80%;
+}
